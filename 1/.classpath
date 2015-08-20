@@ -2,5 +2,16 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry exported="true" kind="lib" path="D:/android/platforms/android-17/android.jar" sourcepath="D:/android/sources/android-17">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/tagnik&apos;zur/Downloads/JakeWharton-ActionBarSherlock-4.3.1-0-gc0d437c/JakeWharton-ActionBarSherlock-071a61c/actionbarsherlock/libs/"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="greendao-generator-2.0.0.jar"/>
+	<classpathentry kind="lib" path="freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="json-simple-1.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
